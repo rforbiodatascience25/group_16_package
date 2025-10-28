@@ -2,3 +2,6 @@
 
 export(plot_amino_acid_composition)
 export(translation)
+export(split_to_codons)
+export(f1)
+export(substi_T_U)
