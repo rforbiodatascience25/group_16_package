@@ -4,27 +4,27 @@ Title: Replicate Central Dogma
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Alena"
+      "Alena",
       email = "s251740@dtu.dk",
       role = c("cre")
     ),
       person(
-      "Magda"
+      "Magda",
       email = "s253517@dtu.dk",
       role = c("aut")
     ),
        person(
-      "Natali"
+      "Natali",
       email = "s253573@dtu.dk",
       role = c("aut")
     ),
        person(
-      "Angela"
+      "Angela",
       email = "s254630@dtu.dk",
       role = c("aut")
     ),
       person(
-      "Marios"
+      "Marios",
       email = "253721@dtu.dk",
       role = c("aut")
     )
@@ -34,3 +34,9 @@ Description: More about what it does (maybe more than one line).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
