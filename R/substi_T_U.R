@@ -1,4 +1,4 @@
-#' Substitute Thymine with Uracile
+#' Transcription
 #'
 #' @param substi_T_U a DNA sequence
 #'

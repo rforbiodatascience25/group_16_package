@@ -2,7 +2,7 @@
 % Please edit documentation in R/substi_T_U.R
 \name{substi_T_U}
 \alias{substi_T_U}
-\title{Substitute Thymine with Uracile}
+\title{Transcription}
 \usage{
 substi_T_U(substi_T_U)
 }
@@ -13,7 +13,7 @@ substi_T_U(substi_T_U)
 a RNA sequence
 }
 \description{
-Substitute Thymine with Uracile
+Transcription
 }
 \examples{
 substi_T_U("ATTCGGGTT")

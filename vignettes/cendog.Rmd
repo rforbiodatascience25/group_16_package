@@ -1,0 +1,58 @@
+---
+title: "cendog"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{cendog}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# CENDOG
+
+WE are replicating the Central Dogma of biology.
+
+```{r setup}
+library(cendog)
+```
+
+## Generate a Random DNA Sequence
+
+```{r}
+N <- 1000
+DNA_seq <- gen_seq(N)
+DNA_seq
+```
+
+## Transcription
+
+```{r}
+RNA_seq <- substi_T_U(DNA_seq)
+RNA_seq
+```
+
+## Split into Codons
+
+```{r}
+codons <- split_to_codons(RNA_seq)
+codons
+```
+
+## Translation
+
+```{r}
+aa_seq <- translation(codons)
+aa_seq
+```
+
+## Visualisation
+
+```{r}
+plot_amino_acid_composition(aa_seq)
+```
