@@ -1,0 +1,36 @@
+Package: cendog
+Type: Package
+Title: Replicate Central Dogma
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Alena"
+      email = "s251740@dtu.dk",
+      role = c("cre")
+    ),
+      person(
+      "Magda"
+      email = "s253517@dtu.dk",
+      role = c("aut")
+    ),
+       person(
+      "Natali"
+      email = "s253573@dtu.dk",
+      role = c("aut")
+    ),
+       person(
+      "Angela"
+      email = "s254630@dtu.dk",
+      role = c("aut")
+    ),
+      person(
+      "Marios"
+      email = "253721@dtu.dk",
+      role = c("aut")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
